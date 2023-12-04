@@ -3,6 +3,7 @@ h1 {
   font-size: 24px;
   text-align: center;
 }
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -22,5 +23,21 @@ tr:first-child th {
 }
 td:first-child {
   border-right: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #008CBA;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+td {
+  text-align: center;
 }
 
