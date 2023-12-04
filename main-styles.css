@@ -1,8 +1,4 @@
 h1 {
   background-color: black;
-  color: white; /* 可选，确保文本可见 */
+  color: green; /* 设置字体颜色为绿色 */
 }
-h1 {
-  color: green;
-}
-
