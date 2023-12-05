@@ -1,1 +1,28 @@
+/* main-styles.css
+ */
+
+/* 设置页面主体部分样式 */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* 设置按钮样式 */
+button {
+  padding: 15px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 设置按钮悬停时的样式 */
+button:hover {
+  background-color: #45a049;
+}
 
