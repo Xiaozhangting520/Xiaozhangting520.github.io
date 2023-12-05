@@ -1,4 +1,4 @@
-/* main-styles.css
+/* styles.css
  */
 
 /* 设置页面主体部分样式 */
@@ -12,7 +12,7 @@ body {
 
 /* 设置按钮样式 */
 button {
-  padding: 15px 20px;
+  padding: 25px 50px;
   font-size: 18px;
   background-color: #4CAF50;
   color: white;
