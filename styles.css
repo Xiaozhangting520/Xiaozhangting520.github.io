@@ -1,4 +1,5 @@
-/* 设置边框长度宽度为10像素，内边框颜色为 #98FB98，背景颜色也为 #98FB98 */
+/* styles.css 文件 */
+
 .my-container {
   border: 10px solid #98FB98; /* 边框颜色和宽度 */
   padding: 20px; /* 内边距，可以根据需要调整 */
