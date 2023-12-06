@@ -25,4 +25,10 @@ button {
 button:hover {
   background-color: #45a049;
 }
+/* 设置字体大小为20像素，居中对齐，有2像素的边框，边框颜色为红色 */
+.我的文本 {
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid red;
+}
 
