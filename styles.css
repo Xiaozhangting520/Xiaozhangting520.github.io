@@ -2,7 +2,7 @@
   border-width: 5vh 10vw; /* 垂直方向高度为5vh，水平方向宽度为10vw */
   border-style: solid;
   border-color: red; /* 边框颜色为红色 */
-  padding: 20px;
+  padding: 1px;
   background-color: red; /* 边框内部背景颜色为红色 */
 }
 
