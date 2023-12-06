@@ -1,7 +1,7 @@
 /* styles.css 文件 */
 
 .my-container {
-  border: 1px solid #98FB98; /* 边框颜色和宽度 */
-  padding: 8px; /* 内边距，可以根据需要调整 */
+  border: 100px solid #98FB98; /* 边框颜色和宽度 */
+  padding: 100px; /* 内边距，可以根据需要调整 */
   background-color: #98FB98; /* 背景颜色 */
 }
