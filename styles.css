@@ -2,10 +2,10 @@
   border-width: 2vh 100vw; /* 垂直方向高度为5vh，水平方向宽度为10vw */
   border-style: solid;
   border-color: red; /* 边框颜色为红色 */
-  padding: 1px;
+  padding: 0px;
   background-color: red; /* 边框内部背景颜色为红色 */
 }
 
 .my-container h1, .my-container h2 {
-  margin: 0; /* 清除默认的标题外边距 */
+  margin: 100; /* 清除默认的标题外边距 */
 }
