@@ -36,3 +36,30 @@
   
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+
+    .scrolling-text {
+      white-space: nowrap; /* 防止文本换行 */
+      overflow: hidden; /* 隐藏溢出的文本 */
+      animation: slide 10s linear infinite; /* 使用滑动动画，10秒完成一次，线性过渡，无限循环 */
+    }
+  </style>
+</head>
+<body>
+
+<div class="scrolling-text">
+  这段文本会水平滚动。
+</div>
+
+</body>
+</html>
+
