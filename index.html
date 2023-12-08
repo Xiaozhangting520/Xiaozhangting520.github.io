@@ -62,4 +62,33 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @keyframes slide {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+
+    .scrolling-text {
+      white-space: nowrap; /* 防止文本换行 */
+      overflow: hidden; /* 隐藏溢出的文本 */
+      animation: slide 10s linear infinite; /* 使用滑动动画，10秒完成一次，线性过渡，无限循环 */
+      background-color: green; /* 背景颜色为绿色 */
+      color: white; /* 文本颜色为白色 */
+      padding: 10px; /* 添加内边距以增加可读性 */
+    }
+  </style>
+</head>
+<body>
+
+<div class="scrolling-text">
+  这段文本会从右往左滑动，背景颜色为绿色。
+</div>
+
+</body>
+</html>
 
