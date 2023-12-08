@@ -1,5 +1,5 @@
 .my-container {
-  border-width: 2vh 15vw; /* 垂直方向高度为5vh，水平方向宽度为10vw */
+  border-width: 2vh 100vw; /* 垂直方向高度为5vh，水平方向宽度为10vw */
   border-style: solid;
   border-color: red; /* 边框颜色为红色 */
   padding: 1px;
